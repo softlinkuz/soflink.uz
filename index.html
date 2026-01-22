@@ -32,47 +32,27 @@
 </head>
 
 <body class="index-page">
-
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Softlink.uz</h1>
+        <h1 class="sitename">Softlink</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#team">Команда</a></li>
+          <li><a href="#contact">Контакты</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="cta-btn" href="index.html#about">Get Started</a>
+      <a class="cta-btn" href="index.html#contact">Заказать услуги</a>
 
     </div>
   </header>
@@ -105,44 +85,57 @@
 
     <!-- About Section -->
     <section id="about" class="about section">
-
+  <canvas id="bg-canvas"></canvas>
       <div class="container">
 
         <div class="row gy-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident laboris nisi ut aliquip ex ea commodo</h3>
-            <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
-            <p>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia
-              recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
-            <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel.
-              Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore
-              doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
+            <h3>Надёжные цифровые решения для бизнеса и частных клиентов</h3>
+            <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="О компании">
+            <p>
+              Мы — IT-компания, базирующаяся в Ташкенте, предоставляющая полный спектр услуг по разработке веб-сайтов,
+              мобильных приложений и программных решений для бизнеса и частных клиентов.
+              Мы помогаем превращать идеи в работающие цифровые продукты, которые приносят реальную пользу.
+            </p>
+            <p>
+              В нашей команде — опытные разработчики, дизайнеры и инженеры, которые работали над международными
+              проектами
+              в США и Южной Корее, сотрудничали с глобальными брендами и крупными технологическими компаниями.
+              Этот опыт позволяет нам выстраивать процессы разработки по мировым стандартам качества.
+            </p>
           </div>
+
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
             <div class="content ps-0 ps-lg-5">
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua.
+                Мы не просто пишем код — мы решаем бизнес-задачи, учитывая цели, сроки и бюджет клиента.
               </p>
               <ul>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                    velit.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore
-                    eu fugiat nulla pariatur.</span></li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Разработка веб-сайтов и веб-приложений любой сложности — от лендингов до корпоративных
+                    систем</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Создание мобильных приложений для iOS и Android с фокусом на производительность и
+                    удобство</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Индивидуальные программные решения, интеграции, поддержка и развитие существующих
+                    продуктов</span>
+                </li>
               </ul>
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                Мы работаем прозрачно, придерживаемся согласованных сроков и всегда нацелены на долгосрочное
+                сотрудничество.
+                Независимо от масштаба проекта, каждый клиент получает внимательный подход, понятную коммуникацию
+                и результат, соответствующий международным стандартам.
               </p>
 
               <div class="position-relative mt-4">
-                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="Команда разработчиков">
               </div>
             </div>
           </div>
@@ -151,6 +144,7 @@
       </div>
 
     </section><!-- /About Section -->
+
 
     <!-- Stats Section -->
     <section id="stats" class="stats section light-background">
@@ -214,64 +208,75 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Featured Srvices<br></p>
+        <h2>Услуги</h2>
+        <p>Наши ключевые направления<br></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-5">
 
+          <!-- Service Item 1 -->
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/services-1.jpg" class="img-fluid" alt="Веб-разработка">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-activity"></i>
                 </div>
                 <a href="service-details.html" class="stretched-link">
-                  <h3>Nesciunt Mete</h3>
+                  <h3>Веб-разработка</h3>
                 </a>
-                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
-                  perferendis.</p>
+                <p>
+                  Разработка современных веб-сайтов и веб-приложений:
+                  лендинги, корпоративные сайты, личные кабинеты и сложные web-системы.
+                  Мы создаём быстрые, надёжные и масштабируемые решения.
+                </p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
+          <!-- Service Item 2 -->
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/services-2.jpg" class="img-fluid" alt="Мобильные приложения">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-broadcast"></i>
                 </div>
                 <a href="service-details.html" class="stretched-link">
-                  <h3>Eosle Commodi</h3>
+                  <h3>Мобильные приложения</h3>
                 </a>
-                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
-                  nesciunt dolorem.</p>
+                <p>
+                  Проектирование и разработка мобильных приложений для iOS и Android —
+                  от MVP до полноценных продуктов.
+                  Удобный интерфейс, высокая производительность и стабильная работа.
+                </p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
+          <!-- Service Item 3 -->
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/services-3.jpg" class="img-fluid" alt="Индивидуальные IT-решения">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-easel"></i>
                 </div>
                 <a href="service-details.html" class="stretched-link">
-                  <h3>Ledo Markt</h3>
+                  <h3>Индивидуальные IT-решения</h3>
                 </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci
-                  eos earum corrupti.</p>
+                <p>
+                  Разработка кастомных программных решений под конкретные бизнес-задачи:
+                  автоматизация процессов, интеграции, поддержка и развитие существующих систем.
+                </p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -488,91 +493,6 @@
       </div>
 
     </section><!-- /Features Section -->
-
-    <!-- Services 2 Section -->
-    <section id="services-2" class="services-2 section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>CHECK OUR SERVICES</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-briefcase icon flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="#" class="stretched-link">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                  occaecati cupiditate non provident</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-card-checklist icon flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="#" class="stretched-link">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat tarad limino ata</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-bar-chart icon flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="#" class="stretched-link">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                  fugiat nulla pariatur</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-binoculars icon flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="#" class="stretched-link">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                  deserunt mollit anim id est laborum</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-brightness-high icon flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="#" class="stretched-link">Nemo Enim</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                  praesentium voluptatum deleniti atque</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="#" class="stretched-link">Eiusmod Tempor</a></h4>
-                <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-                  soluta nobis est eligendi</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services 2 Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">
@@ -1148,6 +1068,7 @@
   <script src="assets/scripts/gsap.min.js"></script>
   <script src="assets/scripts/ScrollTrigger.min.js"></script>
   <script src="assets/scripts/lenis.min.js"></script>
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
   <!-- <script src="assets/js/script.js"></script> -->
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
