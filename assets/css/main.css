@@ -1073,10 +1073,26 @@ h6 {
   background-color: var(--background-color);
   font-size: 14px;
   position: relative;
+  overflow: hidden; /* Ensure video doesn't overflow */
+}
+
+.footer .footer-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.footer .container {
+  position: relative;
+  z-index: 2;
 }
 
 .footer .footer-top {
-  padding-top: 50px;
+  padding-top: 20px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -1652,8 +1668,8 @@ section,
 
 .services-wrapper {
   position: relative;
-  width: 80%;
-  max-width: 1400px;
+  width: 95%;
+  max-width: 1900px;
   margin: 0 auto;
   border-radius: 32px;
   overflow: hidden;
@@ -2382,8 +2398,8 @@ section,
 
 .contact-wrapper {
   position: relative;
-  width: 80%;
-  max-width: 1400px;
+  width: 95%;
+  max-width: 1900px;
   margin: 0 auto;
   border-radius: 32px;
   overflow: hidden;
